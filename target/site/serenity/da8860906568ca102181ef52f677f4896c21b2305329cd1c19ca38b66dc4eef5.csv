@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product CURD test","Getting All The Products","SUCCESS","2022-06-07T21:11:25.338+01:00[Europe/London]","0.0","6.75"
+"Product CURD test","Create Product","SUCCESS","2022-06-07T21:11:32.238+01:00[Europe/London]","0.0","1.49"
+"Product CURD test","Verify if Product is updated","SUCCESS","2022-06-07T21:11:33.727+01:00[Europe/London]","0.0","0.11"
+"Product CURD test","This will delete and verify if product is deleted","SUCCESS","2022-06-07T21:11:33.841+01:00[Europe/London]","0.0","0.22"

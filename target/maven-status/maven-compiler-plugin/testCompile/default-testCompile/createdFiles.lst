@@ -1,0 +1,6 @@
+playground\api\besybuy\testbase\TestBase.class
+playground\api\besybuy\bestbuyinfo\ServicesCRUDTestWithSteps.class
+playground\api\besybuy\bestbuyinfo\StoresCRUDTestWithSteps.class
+playground\api\besybuy\bestbuyinfo\CategoriesCRUDTestWithSteps.class
+playground\api\besybuy\bestbuyinfo\ProductCURDTest.class
+playground\api\besybuy\bestbuyinfo\UtilitiesCRUDTestWithSteps.class

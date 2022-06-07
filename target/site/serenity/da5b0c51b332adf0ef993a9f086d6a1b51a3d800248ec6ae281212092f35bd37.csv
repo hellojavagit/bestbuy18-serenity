@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Product CURD test","Getting The Products By Id","FAILURE","2022-06-07T21:11:32.110+01:00[Europe/London]","0.0","0.11"
+"Categories CRUD test with steps","Creating A New Category","FAILURE","2022-06-07T21:11:32.589+01:00[Europe/London]","0.0","0.78"
+"Stores CRUD test with steps","Creating  The Store","FAILURE","2022-06-07T21:11:32.799+01:00[Europe/London]","0.0","0.89"
+"Stores CRUD test with steps","GettingThe Store By ID","FAILURE","2022-06-07T21:11:33.695+01:00[Europe/London]","0.0","0.29"
+"Services CRUD test with steps","Creating A New Service","FAILURE","2022-06-07T21:11:35.744+01:00[Europe/London]","0.0","0.05"
+"Services CRUD test with steps","Getting The Services By Id","FAILURE","2022-06-07T21:11:35.791+01:00[Europe/London]","0.0","0.07"
+"Services CRUD test with steps","Deleting The Services By Id","FAILURE","2022-06-07T21:11:35.887+01:00[Europe/London]","0.0","0.04"

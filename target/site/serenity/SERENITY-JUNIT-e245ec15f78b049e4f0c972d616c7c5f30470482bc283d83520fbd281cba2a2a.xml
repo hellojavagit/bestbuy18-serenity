@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="2" name="playground.api.besybuy.bestbuyinfo.StoresCRUDTestWithSteps" skipped="0" tests="5" time="8.65" timestamp="2022-06-07T21:11:25.338+01:00[Europe/London]"><testcase classname="playground.api.besybuy.bestbuyinfo.StoresCRUDTestWithSteps" name="Getting All The Store"/><testcase classname="playground.api.besybuy.bestbuyinfo.StoresCRUDTestWithSteps" name="Creating  The Store"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+playground.api.besybuy.bestbuyinfo.StoresCRUDTestWithSteps.test002(StoresCRUDTestWithSteps.java:42)&#13;
+</system-err></testcase><testcase classname="playground.api.besybuy.bestbuyinfo.StoresCRUDTestWithSteps" name="GettingThe Store By ID"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+playground.api.besybuy.bestbuyinfo.StoresCRUDTestWithSteps.test003(StoresCRUDTestWithSteps.java:49)&#13;
+</system-err></testcase><testcase classname="playground.api.besybuy.bestbuyinfo.StoresCRUDTestWithSteps" name="Updating The Store By Id"><error message="parameterValue cannot be null" type="java.lang.IllegalArgumentException">parameterValue cannot be null</error><system-err>parameterValue cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParameter(RequestSpecificationImpl.groovy:560)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:578)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationParametersConfigurations.pathParam(RequestSpecificationParametersConfigurations.java:188)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.pathParam(RequestSpecificationDecorated.java:27)&#13;
+playground.api.besybuy.bestbuyinfo.StoresSteps.updateStoreByID(StoresSteps.java:81)&#13;
+playground.api.besybuy.bestbuyinfo.StoresCRUDTestWithSteps.test004(StoresCRUDTestWithSteps.java:57)&#13;
+</system-err></testcase><testcase classname="playground.api.besybuy.bestbuyinfo.StoresCRUDTestWithSteps" name="Deleting The Store"><error message="parameterValue cannot be null" type="java.lang.IllegalArgumentException">parameterValue cannot be null</error><system-err>parameterValue cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParameter(RequestSpecificationImpl.groovy:560)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:810)&#13;
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+io.restassured.internal.RequestSpecificationImpl.pathParam(RequestSpecificationImpl.groovy:578)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationParametersConfigurations.pathParam(RequestSpecificationParametersConfigurations.java:188)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.pathParam(RequestSpecificationDecorated.java:27)&#13;
+playground.api.besybuy.bestbuyinfo.StoresSteps.deleteStoresById(StoresSteps.java:91)&#13;
+playground.api.besybuy.bestbuyinfo.StoresCRUDTestWithSteps.test005(StoresCRUDTestWithSteps.java:64)&#13;
+</system-err></testcase></testsuite>
